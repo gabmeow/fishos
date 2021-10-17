@@ -11,7 +11,7 @@ print("""
 ░░░╚═╝░░░╚══════╝╚═╝░░╚═╝░░░╚═╝░░░░░░░░░╚══════╝╚═════╝░╚═╝░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝
 """)
 
-fileopener = open('disk/D/Text Editor/new.txt')
+fileopener = open('fishos/new.txt')
 filereader = fileopener.read()
 
 print("Your recent files: " + filereader)
@@ -27,7 +27,7 @@ choose = input("[?]: ")
 if choose == '1':
     print("Type something to put in the file")
     typein = input("")
-    with open('disk/D/Text Editor/new.txt', 'w') as f:
+    with open('fishos/new.txt', 'w') as f:
         f.writelines(typein)
         os.open('home.py')
         os.open('edit.py')
