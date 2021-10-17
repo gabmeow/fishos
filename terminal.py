@@ -5,10 +5,10 @@ import os
 import time
 
 
-loginpass = open('user/password.txt')
-loginname = open('user/username.txt')
-lp = loginpass.read()
-ln = loginname.read()
+login_pass = open('password.txt')
+login_name = open('username.txt')
+lp = login_pass.read()
+ln = login_name.read()
 cpucount = os.cpu_count()
 print("FishOS Terminal [Version 0.1]")
 print("System>>> Make sure you've already done psh -i")
