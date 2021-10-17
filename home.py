@@ -2,8 +2,8 @@ import time
 import os
 import socket
 
-login_pass = open('user/password.txt')
-login_name = open('user/username.txt')
+login_pass = open('password.txt')
+login_name = open('username.txt')
 lp = login_pass.read()
 ln = login_name.read()
 
