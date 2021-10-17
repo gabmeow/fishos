@@ -13,8 +13,8 @@ print("""
 
 print("Today is: " + time.strftime("%m/%d/%y"))
 
-ncommdo = open('user/commitments.txt')
-ncommco = open('user/commitments.txt')
+ncommdo = open('fishos/commitments.txt')
+ncommco = open('fishos/commitments.txt')
 ncview = ncommdo.read()
 
 print("Your recent commitments: " + ncview)
