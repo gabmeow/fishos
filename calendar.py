@@ -38,7 +38,7 @@ if choice == '1':
 
         n_comm_d = input(str("Please enter the date and the message of your commitment: "))
 
-        with open('user/commitments.txt', 'w') as f:
+        with open('fishos/commitments.txt', 'w') as f:
             f.writelines(n_comm_d)
             print("Succesfully created a commitment!")
             print("[1] Exit")
@@ -52,7 +52,7 @@ if choice == '1':
         print("Press 1 to delete your commitments")
         clear = input()
         if clear == '1':
-            with open('user/commitments.txt', 'w') as f:
+            with open('fishos/commitments.txt', 'w') as f:
                 ciao = str()
                 f.writelines(ciao)
             print("Succesfully deleted your commitments!")
