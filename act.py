@@ -1,8 +1,8 @@
 import os
 import time
 
-login_pass = open('user/password.txt')
-login_name = open('user/username.txt')
+login_pass = open('fishos/password.txt')
+login_name = open('fishos/username.txt')
 lp = login_pass.read()
 ln = login_name.read()
 
