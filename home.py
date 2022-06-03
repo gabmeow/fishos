@@ -45,8 +45,8 @@ if select == '4':
 if select == '5':
     os.startfile('terminal.py')
     
-if select == '6':
-    os.startfile('act.py')
+#if select == '6':
+#    os.startfile('act.py')
 
-if select == '7':
+if select == '6':
     os.close('home.py')
