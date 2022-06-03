@@ -25,8 +25,7 @@ print("""
 [3] File Explorer
 [4] Calendar
 [5] Terminal
-[6] Activity Gestor (NOT AVALIBLE ON THIS VERSION)
-[7] Safe Shutdown
+[6] Safe Shutdown
 """)
 select = input("[?]: ")
 if select == '1':
